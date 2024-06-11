@@ -51,22 +51,6 @@ After successfully Logging in, the user can see the text-to-speech and translati
 
 
 
-
-
-# Login Page
-
-![Screenshot (119)](https://github.com/bhushan2311/image_caption_generator/assets/102802326/916f713d-acec-4789-a962-fa16f574acac)
-
-
-# Signup page
-
-
-
-
-![Screenshot (120)](https://github.com/bhushan2311/image_caption_generator/assets/102802326/4fc3a436-7803-4889-b595-2a19ca5c7b44)
-
-
-
 ## How to Run the Project
 
 Follow these steps to run the project on your local machine:
@@ -87,22 +71,6 @@ Follow these steps to run the project on your local machine:
      ```bash
      python app.py
      ```
-
-3. **MongoDB Setup (Optional):**
-   - If you want to use the login/signup, text-to-speech, and translation features, you'll need to set up MongoDB.
-   - Open a third terminal (Terminal-3).
-   - Navigate to the 'backend' directory using 'cd backend/'.
-   - Start the Node.js server:
-     ```bash
-     node app.js
-     ```
-   - Open a fourth terminal (Terminal-4).
-   - Start the MongoDB server:
-     ```bash
-     mongod
-     ```
-   - Open a fifth terminal (Terminal-5).
-     ```bash
      mongo
      ```
 
